@@ -1,4 +1,3 @@
-// src/components/Team.jsx
 import React from 'react';
 import "./fontStyles.css"
 
@@ -36,7 +35,7 @@ const Team = () => (
             className="w-full h-full object-cover rounded-full"
           />
         </div>
-        <p className="font-[personal2]">Hugo O’Connor – Chief Technical Advisor</p>
+        <p className="font-[personal2]">Hugo O’Connor – Chief Technical Officer</p>
         <p className="text-gray-700 text-sm font-sans">
           Web3 strategist, former CSIRO/Data61 lead. Designs governance frameworks.
         </p>

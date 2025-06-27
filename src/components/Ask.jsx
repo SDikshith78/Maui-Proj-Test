@@ -1,4 +1,3 @@
-// Ask.jsx
 import React from 'react';
 import "./fontStyles.css"
 

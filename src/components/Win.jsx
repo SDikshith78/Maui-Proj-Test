@@ -1,6 +1,4 @@
-// src/components/Win.jsx
 import React from 'react';
-import Tilt from 'react-parallax-tilt';
 import "./fontStyles.css";
 
 const Win = () => (
@@ -36,17 +34,8 @@ const Win = () => (
           ],
         },
       ].map((item, idx) => (
-        <Tilt
+        <div
           key={idx}
-          glareEnable={true}
-          glareMaxOpacity={0.1}
-          glareColor="#ffffff"
-          glarePosition="all"
-          scale={1.05}
-          tiltReverse={true}
-          gyroscope={true}
-          perspective={900}
-          transitionSpeed={2000}
           className="rounded-lg bg-white p-6 shadow-md"
         >
           <h3 className="mb-4 text-xl font-[personal2] text-gray-800">{item.title}</h3>
@@ -55,7 +44,7 @@ const Win = () => (
               <li key={i}>{point}</li>
             ))}
           </ul>
-        </Tilt>
+        </div>
       ))}
     </div>
   </section>

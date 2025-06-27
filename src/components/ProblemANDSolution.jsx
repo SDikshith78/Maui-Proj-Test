@@ -1,4 +1,3 @@
-// src/components/ProblemAndSolution.jsx
 import React from "react";
 import "./fontStyles.css";
 import { useGSAP } from "@gsap/react";
@@ -24,7 +23,7 @@ const ProblemAndSolution = () => {
 
     problm1.from(".problem", {
       x:-700,
-      duration:1,
+      duration:0.1,
       opacity:0,
       ease: "power3.in",
     })
@@ -41,7 +40,7 @@ const ProblemAndSolution = () => {
 
     solution1.from(".solution", {
       x:1100,
-      duration:1,
+      duration:0.1,
       opacity:0,
       ease: "power3.in",
     })
@@ -77,6 +76,22 @@ const ProblemAndSolution = () => {
           regulatory-compliant, user-first innovation.
         </p>
       </div>
+
+      {/* 🖼️ Diagram Image */}
+      <div className="mt-17 text-center">
+  <h1 className="mb-4 text-xl sm:text-2xl font-semibold text-[#042880]">
+    Visual representation
+  </h1>
+
+  <div className="flex justify-center">
+    <img
+      src="/assets/images/Diagram.png"
+      alt="MAUI Infrastructure Diagram"
+      className="backgroundCard5 w-[107%] sm:w-[90%] md:w-[80%] lg:w-[70%] xl:w-[80%] max-w-4xl rounded-lg shadow-lg"
+    />
+  </div>
+</div>
+
     </section>
   );
 };

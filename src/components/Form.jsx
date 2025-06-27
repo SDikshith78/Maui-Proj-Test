@@ -1,9 +1,7 @@
-// src/components/Form.jsx
 import React, { useRef, useState } from 'react';
 import TextField from '@mui/material/TextField';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Tilt from 'react-parallax-tilt';
 
 
 const Form = () => {

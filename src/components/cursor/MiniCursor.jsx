@@ -6,9 +6,23 @@ function MiniCursor() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [scale, setScale] = useState({ xscale: 1, yscale: 1 });
   const [prevPos, setPrevPos] = useState({ xprev: 0, yprev: 0 });
+  const [showCursor, setShowCursor] = useState(false);
 
+  // Detect if the user is on a desktop device
   useEffect(() => {
-    if (window.innerWidth < 768) return; // Disable cursor on mobile
+    const userAgent = navigator.userAgent.toLowerCase();
+    const isMobile =
+      /android|iphone|ipad|ipod|opera mini|iemobile|mobile/.test(userAgent);
+
+    // Show cursor only if NOT mobile/tablet and screen is wide enough
+    if (!isMobile && window.innerWidth > 768) {
+      setShowCursor(true);
+    }
+  }, []);
+
+  // Cursor animation effect
+  useEffect(() => {
+    if (!showCursor) return;
 
     let timeout;
 
@@ -36,7 +50,10 @@ function MiniCursor() {
       window.removeEventListener("mousemove", handleMouseMove);
       clearTimeout(timeout);
     };
-  }, [prevPos]);
+  }, [showCursor, prevPos]);
+
+  // Completely hide on mobile/tablet
+  if (!showCursor) return null;
 
   return (
     <div className="mini-cursor">
