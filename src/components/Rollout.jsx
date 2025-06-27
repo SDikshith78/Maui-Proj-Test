@@ -23,26 +23,13 @@ const Rollout = () => {
 
     rollout.from(".roll", {
       y: -700,
-      duration: 0.5,
+      duration: 0.1,
       opacity: 0,
       ease: "power3.in",
       stagger: 1,
     });
 
-    rollout.from(".rolling", {
-      y: -600,
-      duration: 0.5,
-      opacity: 0,
-      ease: "power3.in",
-      stagger: 1.2,
-    });
-
-    rollout.from(".rollingP", {
-      y: 700,
-      duration: 0.5,
-      opacity: 0,
-      ease: "power3.in",
-    });
+    
   }, []);
 
   return (
@@ -100,10 +87,10 @@ const Rollout = () => {
           >
             <div className="mb-4 sm:mb-0 sm:mr-6">{icon}</div>
             <div>
-              <h3 className="rolling mb-2 text-xl font-semibold text-gray-800">
+              <h3 className=" mb-2 text-xl font-semibold text-gray-800">
                 {title}
               </h3>
-              <p className="rollingP text-gray-600 font-[personal2]">
+              <p className=" text-gray-600 font-[personal2]">
                 {description}
               </p>
             </div>

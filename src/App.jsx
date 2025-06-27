@@ -30,7 +30,7 @@ const App = () => {
   return (
     <div className="font-sans bg-white text-gray-900 min-h-screen">
       <main className="container mx-auto px-4 py-12">
-        <MiniCursor />
+        {/* <MiniCursor /> */}
         <HeroSection />
         <ProblemANDSolution />
         <Provide />
