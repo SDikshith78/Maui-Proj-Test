@@ -1,0 +1,13 @@
+#minicircle {
+  transition: transform 0.2s ease-out;
+  width: 11px;
+  height: 11px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  border-radius: 50%;
+  background-color: #ffffff;
+  mix-blend-mode: difference;
+  pointer-events: none;
+}

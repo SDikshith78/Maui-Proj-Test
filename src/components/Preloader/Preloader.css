@@ -1,0 +1,53 @@
+.preloader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 99999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Valorant', sans-serif;
+  transition: opacity 0.5s ease-out;
+}
+
+.loader-number {
+  font-size: 3rem;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.loader-bar {
+  width: 70%;
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.loader-bar-fill {
+  height: 100%;
+  background-color: #000;
+  width: 0%;
+  transition: width 0.2s ease-out;
+}
+
+.loader-text {
+  font-size: 1.5rem;
+  color: #000;
+  position: relative;
+  text-align: center;
+}
+
+.loader-text.black-and-white span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  mix-blend-mode: difference;
+  width: 100%;
+}

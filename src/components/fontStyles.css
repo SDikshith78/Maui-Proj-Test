@@ -1,0 +1,128 @@
+/* AvertaCY Fonts */
+@font-face {
+  font-family: "AvertaCY_Bold";
+  src: url("../../public/assets/font/AvertaCY-Bold.woff2") format("woff2");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "AvertaCY_SemiBold";
+  src: url("../../public/assets/font/AvertaCY-Semibold.woff2") format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "AvertaCY_Regular";
+  src: url("../../public/assets/font/AvertaCY-Regular.woff2") format("woff2");
+  font-weight: 450;
+}
+
+@font-face {
+  font-family: "AvertaCY_Light";
+  src: url("../../public/assets/font/AvertaCY-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+/* GeneralSans Fonts */
+@font-face {
+  font-family: "GeneralSans_Medium";
+  src: url("../../public/assets/font/GeneralSans-Medium.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "GeneralSans_Regular";
+  src: url("../../public/assets/font/GeneralSans-Regular.otf")
+    format("opentype");
+  font-weight: 500;
+}
+
+/* NeueMontreal Fonts */
+@font-face {
+  font-family: "NeueMontreal_Bold";
+  src: url("../../public/assets/font/NeueMontreal-Bold.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "NeueMontreal_Medium";
+  src: url("../../public/assets/font/GeneralSans-Regular.otf")
+    format("opentype");
+  font-weight: 500;
+}
+
+/* Valorant Fonts */
+@font-face {
+  font-family: "Valorant";
+  src: url("../../public/assets/font/ValorantFont.ttf") format("truetype");
+  font-weight: normal;
+}
+
+/* personal Fonts */
+@font-face {
+  font-family: "personal1";
+  src: url("../../public/assets/font/personal.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "personal2";
+  src: url("../../public/assets/font/personal2.woff2") format("woff2");
+  font-weight: 450;
+}
+
+.backgroundCard {
+  border-radius: 13px;
+  background: #f9f9f9;
+  box-shadow: inset 8px 8px 7px #dedede, inset -8px -8px 7px #cccccc;
+}
+
+.backgroundCard1{
+border-radius: 17px;
+box-shadow:  -7px -7px 11px #564e4e,
+             7px 7px 11px #ffffff;
+}
+
+.backgroundCard2{
+border-radius: 11px;
+box-shadow: inset 8px 8px 16px #888e96,
+            inset -8px -8px 16px #ffffff;
+}
+
+.backgroundCard3{
+  border-radius: 11px;
+box-shadow:  11px 11px 8px #9b9999,
+             -11px -11px 8px #ffffff;
+}
+
+.backgroundCard4{
+
+border-radius: 15px;
+box-shadow:  -11px -11px 21px #605e5e,
+             11px 11px 21px #ffffff;
+
+}
+
+.backgroundCard5{
+
+border-radius: 15px;
+box-shadow:  11px 11px 21px #8e8d8de7,
+             -11px -11px 21px #ffffff;
+
+}
+
+/* .backgroundCard6{
+
+border-radius: 15px;
+box-shadow:  11px 11px 21px #0212fc,
+             -11px -11px 21px #ffffff;
+
+} */
+
+.backgroundCard6{
+
+border-radius: 15px;
+box-shadow:  11px 11px 21px #414141,
+             -11px -11px 21px #c6c6c6;
+
+}
