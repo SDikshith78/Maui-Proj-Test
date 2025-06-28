@@ -90,7 +90,7 @@ const ProblemAndSolution = () => {
     <img
       src="/assets/images/Diagram.png"
       alt="MAUI Infrastructure Diagram"
-      className="backgroundCard5 w-[121%] sm:w-[90%] md:w-[80%] lg:w-[70%] xl:w-[80%] max-w-4xl rounded-lg shadow-lg"
+      className="backgroundCard5 w-[124%] sm:w-[90%] md:w-[80%] lg:w-[70%] xl:w-[80%] max-w-4xl rounded-lg shadow-lg"
     />
   </div>
 </div>
