@@ -17,7 +17,7 @@ const Rollout = () => {
         start: "top 60%",
         end: "bottom 90%",
         scrub: 2,
-        markers: true,
+        // markers: true,
       },
     });
 
