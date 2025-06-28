@@ -14,15 +14,15 @@ const Rollout = () => {
     const rollout = gsap.timeline({
       scrollTrigger: {
         trigger: ".roll",
-        start: "top 80%",
-        end: "bottom 15%",
+        start: "top 60%",
+        end: "bottom 90%",
         scrub: 2,
-        // markers: true,
+        markers: true,
       },
     });
 
     rollout.from(".roll", {
-      y: -700,
+      y: -200,
       duration: 0.1,
       opacity: 0,
       ease: "power3.in",

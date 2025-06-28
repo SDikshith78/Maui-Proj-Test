@@ -30,7 +30,7 @@ const Win = () => (
           points: [
             "Monetize through licensing, usage fees, and protocol royalties",
             "Gain exposure to the $100B+ digital rights & compliance market",
-            "Invest early in compliant, live infrastructure with high barriers",
+            "Invest early in compliant, live infrastructure with high barriers to replication",
           ],
         },
       ].map((item, idx) => (
