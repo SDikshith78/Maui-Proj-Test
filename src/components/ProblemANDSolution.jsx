@@ -45,7 +45,7 @@ const ProblemAndSolution = () => {
 
   return (
     <section className="mx-auto mb-16 mt-5 flex max-w-6xl flex-col gap-8 rounded-lg bg-gray-200 px-4 py-12 overflow-hidden">
-      <div className="problem backgroundCard5 rounded-lg bg-[#f2ecff] p-6 text-center shadow-md">
+      <div className="problem backgroundCard1 rounded-lg bg-[#f2ecff] p-6 text-center shadow-md">
         <h2 className="mb-4 text-2xl font-semibold text-gray-800">
           The Problem
         </h2>
@@ -60,7 +60,7 @@ const ProblemAndSolution = () => {
         </p>
       </div>
 
-      <div className="solution backgroundCard5 rounded-lg bg-[#5cdab7] p-6 text-center shadow-md">
+      <div className="solution backgroundCard1 rounded-lg bg-[#5cdab7] p-6 text-center shadow-md">
         <h2 className="mb-4 text-2xl font-semibold text-gray-800">
           Our Solution
         </h2>
