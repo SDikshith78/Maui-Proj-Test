@@ -14,7 +14,7 @@ const Team = () => (
             <img
               src="/assets/images/andrew_CEO.jpg"
               alt="Andrew Mugridge"
-              className="w-full h-full object-cover rounded-full"
+              className="w-full h-full object-cover rounded-full grayscale"
             />
           </div>
           <p className="font-[personal2]">Andrew Mugridge – Founder & CEO</p>
@@ -32,7 +32,7 @@ const Team = () => (
           <img
             src="/assets/images/hugo_CTA.jpg"
             alt="Hugo O’Connor"
-            className="w-full h-full object-cover rounded-full"
+            className="w-full h-full object-cover rounded-full grayscale"
           />
         </div>
         <p className="font-[personal2]">Hugo O’Connor – Chief Technical Officer</p>
@@ -46,7 +46,7 @@ const Team = () => (
           <img
             src="/assets/images/adil_al_raeesi_OGS.jpg"
             alt="Adil Ali Raessi"
-            className="w-full h-full object-cover rounded-full"
+            className="w-full h-full object-cover rounded-full grayscale"
           />
         </div>
         <p className="font-[personal2]">Adil Ali Raessi – Operations & Governance</p>
@@ -60,7 +60,7 @@ const Team = () => (
           <img
             src="/assets/images/Mark_CFO.jpg"
             alt="Mark Campbell"
-            className="w-full h-full object-cover rounded-full"
+            className="w-full h-full object-cover rounded-full grayscale"
           />
         </div>
         <p className="font-[personal2]">Mark Campbell – Chief Financial Officer</p>
@@ -74,7 +74,7 @@ const Team = () => (
           <img
             src="/assets/images/jon_ciseki_SAG.jpg"
             alt="Jon Cisecki"
-            className="w-full h-full object-cover rounded-full"
+            className="w-full h-full object-cover rounded-full grayscale"
           />
         </div>
         <p className="font-[personal2]">Jon Cisecki – Systems Advisor: Governance</p>
@@ -88,7 +88,7 @@ const Team = () => (
           <img
             src="/assets/images/Bernadette_COS.jpg"
             alt="Fah Bernadette"
-            className="w-full h-full object-cover rounded-full"
+            className="w-full h-full object-cover rounded-full grayscale"
           />
         </div>
         <p className="font-[personal2]">Fah Bernadette – Chief of Staff</p>
