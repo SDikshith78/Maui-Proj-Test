@@ -34,7 +34,7 @@ const Provide = () => {
   }, []);
 
   return (
-    <section className="backgroundCard mb-16 rounded-lg bg-gray-300 p-8 overflow-hidden">
+    <section className="backgroundCard mb-16 rounded-lg bg-gray-200 p-8 overflow-hidden">
       <h2 className="mb-6 text-center text-2xl font-semibold text-[#042880]">
         We Provide:
       </h2>

@@ -33,7 +33,7 @@ const Rollout = () => {
   }, []);
 
   return (
-    <section className="mb-16 rounded-lg bg-white p-8">
+    <section className="mb-16 rounded-lg bg-gray-200 p-8">
       <div className="mb-8 text-center">
         <h2 className="text-3xl font-bold text-[#042880]">Rollout Roadmap</h2>
       </div>

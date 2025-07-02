@@ -76,7 +76,7 @@ const Form = () => {
       </div>
 
       {/* Main Form Card */}
-      <div className="backgroundCard6 absolute z-40 h-auto md:h-[80vh] w-full max-w-[95vw] md:w-[105vh] rounded-3xl bg-zinc-300 opacity-50 px-4 md:px-8 py-6 md:py-4">
+      <div className="backgroundCard6 absolute z-40 h-auto md:h-[80vh] w-full max-w-[95vw] md:w-[105vh] rounded-3xl bg-zinc-100 opacity-50 px-4 md:px-8 py-6 md:py-4">
         <h1 className="px-2 py-4 text-center text-3xl md:text-5xl font-neueMontrealmedium font-semibold title">
           Get in Touch
         </h1>
